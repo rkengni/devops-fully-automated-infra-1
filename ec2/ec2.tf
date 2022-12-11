@@ -59,7 +59,6 @@ resource "aws_iam_instance_profile" "instance_profile" {
 }
 
 
-
 resource "aws_instance" "web_server" {
   ami                    = "ami-0b0dcb5067f052a63"
   instance_type          = "t3.small"
